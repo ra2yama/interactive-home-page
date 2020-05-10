@@ -171,7 +171,7 @@ function makeHeader (text) {
 
     for (var i = 0; i < text.length; i++) {
 
-        var l = makeBeefyText(i * 200 + 150, 100, text[i], null, 20);
+        var l = makeBeefyText(i * 200 + 150, 110, text[i], null, 20);
         l.scale.set(8);
         arr.push(l);
     }
